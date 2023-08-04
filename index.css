@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #149c87;
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+    font-size: 18px;
+    height: 30px;
+}
+
+nav li a {
+    padding-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-image {
+    background-size: cover;
+    display: flex;
+    position: relative;
+    width: 98%;
+}
+
+.header-image img {
+    width: 100%;
+    height: 500px;
+}
+
+.hover-text {
+    display: none;
+    position: absolute;
+    bottom: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.header-image:hover .hover-text {
+    display: flex;
+    justify-content: center;
+}
+
+#job-description-line {
+    margin: 30px;
+    font-size: 18px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.profile img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.profile hr {
+    width: 200px;
+    height: 2px;
+    background-color: #149c87;
+}
+
+#project-intro {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project {
+    padding: 50px;
+    width: 300px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.project-img {
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.project-description1 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 220px;
+    top: 1100px;
+}
+
+.project-description2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 220px;
+    top: 1370px;
+}
+
+.gallery {
+    height: 300px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.gallery-heading hr {
+    width: 200px;
+    height: 2px;
+    margin-top: 5px;
+    margin-bottom: 35px;
+    background-color: #149c87;
+}
+
+.gallery-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery_stack1 {
+    width: 90%;
+    padding: 20px;
+    margin: 10px auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery_stack1 img {
+    display: block;
+    border-radius: 5px;
+
+    width: 300px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 0.5s;
+    height: 350px;
+    border: 2px solid black;
+}
+
